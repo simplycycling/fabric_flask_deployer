@@ -8,6 +8,7 @@ Modify the script to reflect the file paths that you'll need to use. Then invoke
 
 fab deploy_api0
 
-Currently, a flask frontend is being worked on that will allow you to enter the software version number that you're going to push. 
+A flask frontend is being worked on that will allow you to enter the software version number that you're going to push, and the hostname that you'll be pushing to.
 
-In the not too distant future, the ability to push from git (rather than local) will be added.
+In the not too distant future, the ability to push from git (rather than local) will be added.          _
+
