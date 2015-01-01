@@ -1,3 +1,6 @@
+# fabric deployment script
+# Written by Roger Sherman and Perry Boyko
+
 from fabric.api import *
 from fabric.contrib.console import confirm
 import os
