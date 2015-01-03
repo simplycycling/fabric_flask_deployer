@@ -9,7 +9,7 @@ import urllib
 # List of hosts to push to
 # Run with env.hosts unchecked will do all four nodes sequentially. For now, we'll do them 
 # individually.
-# env.hosts = ['root@10.70.0.40', 'root@10.70.0.43', 'root@10.70.0.96', 'root@10.70.0.95']
+# env.hosts = ['10.20.0.x', '10.20.0.x', '10.20.0.x', '10.20.0.x']
 
 @hosts('10.70.x.x')
 def deploy_api0():
