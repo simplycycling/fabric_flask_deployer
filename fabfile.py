@@ -6,7 +6,7 @@ from fabric.contrib.console import confirm
 import os
 import urllib
 
-# List of hosts to push to
+# List of hosts to push to 
 # Run with env.hosts unchecked will do all four nodes sequentially. For now, we'll do them 
 # individually.
 # env.hosts = ['10.20.0.x', '10.20.0.x', '10.20.0.x', '10.20.0.x']
