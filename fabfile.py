@@ -5,6 +5,7 @@ from fabric.api import *
 from fabric.contrib.console import confirm
 import os
 import urllib
+from fabric.colors import green, cyan
 
 # List of hosts to push to 
 # Run with env.hosts unchecked will do all four nodes sequentially. For now, we'll do them 
@@ -68,6 +69,7 @@ def deploy_api0():
     # ACT, "&wa=0&vwa=0"    
     urllib.urlopen("http://_generic_REST_command_")
     urllib.urlopen("http://_generic_REST_command_")
+    print(green("Thank you for the new package, sir!"))
 
 @hosts('10.70.x.x')
 def deploy_api1():
